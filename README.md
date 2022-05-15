@@ -7,4 +7,4 @@
 > `(x_train, y_train), (x_test, y_test) = mnist.load_data()`
 
 **One Hot Encoding**
-> `tf.keras.utils.to_categorical`
+> `y_train = tf.keras.utils.to_categorical(y_train)`
