@@ -22,9 +22,13 @@
 **Model**
 
 **Sequential API**
+
 > `from tensorflow import keras`
+> 
 > `from tensorflow.keras import Sequential`
+> 
 > `from tensorflow.keras.layers import Dense, Dropout`
+> 
 > `model = tf.keras.models.Sequential([`
   > `tf.keras.layers.Flatten(input_shape=(28, 28)),`
   > `tf.keras.layers.Dense(128, activation="relu"),`
